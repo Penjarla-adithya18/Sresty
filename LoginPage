@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>
+            LOGIN PAGE
+        </title>
+        <style>
+            body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+        button{
+            color:black;
+            cursor:pointer;
+            background-color:greenyellow;
+        }
+        .first{
+            background-color:white;
+            text-align: center;
+        }
+        </style>
+    <body>
+        <div class="first">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"placeholder="username"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"placeholder="password"><br><br>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </body>
+    </html>
+</html>
